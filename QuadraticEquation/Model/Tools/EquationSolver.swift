@@ -52,29 +52,32 @@ public class EquationSolver {
         Delta = solution.valueB*solution.valueB - 4*solution.valueA*solution.valueC;
         
         if (solution.valueA == 0 && solution.valueB == 0 && solution.valueC == 0) {
-            let Raiz1: Float16 = 0
-            let Raiz2: Float16 = 0
+            solution.Raiz1 = 0
+            solution.Raiz2 = 0
         }
         else if (solution.valueA == 0) {
-            // lblRaiz1.text = "X1 = \(-c/b)"
-            // lblRaiz2.text = "X2 = \(-c/b)"
             createAlert(title: "AVISO", message: "No es una ecuacion de segundo grado")
+            
         }
         else {
             
             
             if (Delta == 0){
-                let Raiz1: Float16 = (-solution.valueB/2*solution.valueA)
+                solution.Raiz1 = (-solution.valueB/2*solution.valueA)
             }
             else if (Delta < 0){
-                let Raiz2: Float16 = 888
+                solution.Raiz2 = 888
             }
             else {
-                let Raiz1: Float16 = (-solution.valueB + (sqrt(Delta))) / (2*solution.valueA)
-                let Raiz2: Float16 = (-solution.valueB - (sqrt(Delta))) / (2*solution.valueA)
+                solution.Raiz1 = (-solution.valueB + (sqrt(Delta))) / (2*solution.valueA)
+                solution.Raiz2 = (-solution.valueB - (sqrt(Delta))) / (2*solution.valueA)
             }
         }
         return Solution(valueA: solution.valueA, valueB: solution.valueB, valueC: solution.valueC, Raiz1: solution.Raiz1, Raiz2: solution.Raiz2)
+         
+ 
+        
+ /*return Solution(valueA: solution.valueA, valueB: solution.valueB, valueC: solution.valueC)*/
     }
         
 }

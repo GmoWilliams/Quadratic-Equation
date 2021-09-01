@@ -23,13 +23,11 @@ class QuadraticEquationTests: XCTestCase {
     
     func testX1_X2() throws {
         //given
-        let a:Float = 2
-        let b:Float = -7
-        let c:Float = 3
+        let input = Solution(valueA: 2, valueB: -7, valueC: 3, Raiz1: 0, Raiz2: 0)
         //when
-        let result = solver.secondGradeSolver(a: a, b: b, c: c)
+        let result = solver.secondGradeSolver(solution: input)
         //then
-        XCTAssert(result == (3, 0.5) )
+        XCTAssert(result == (2,-7, 3, 3, 0.5) )
     }
 
     /*
