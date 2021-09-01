@@ -14,12 +14,14 @@ public class Solution {
     
     public var Raiz1 : Float16
     public var Raiz2 : Float16
+    public var Quadratic : Bool
     
-    public init(valueA: Float16, valueB: Float16, valueC: Float16, Raiz1: Float16, Raiz2: Float16) {
+    public init(valueA: Float16, valueB: Float16, valueC: Float16, Raiz1: Float16, Raiz2: Float16, Quadratic: Bool) {
         self.valueA = valueA
         self.valueB = valueB
         self.valueC = valueC
         self.Raiz1 = Raiz1
         self.Raiz2 = Raiz2
+        self.Quadratic = Quadratic
     }
 }

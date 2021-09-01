@@ -78,18 +78,21 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1TV-16-fJ5" userLabel="ATextField">
                                                 <rect key="frame" x="20" y="0.0" width="246.5" height="63"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="ATextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="plR-hy-ivv" userLabel="BTextField">
                                                 <rect key="frame" x="20" y="63" width="246.5" height="62.5"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="BTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MEf-9t-i1C" userLabel="CTextField">
                                                 <rect key="frame" x="20" y="125.5" width="246.5" height="62.5"/>
                                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="CTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                             </textField>
@@ -148,7 +151,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qDY-fm-aoL" userLabel="R1TextField">
                                                 <rect key="frame" x="53" y="38" width="176" height="62.5"/>
                                                 <color key="backgroundColor" red="0.58535849736305812" green="1" blue="0.78394598853675257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <accessibility key="accessibilityConfiguration">
+                                                <accessibility key="accessibilityConfiguration" identifier="R1TextField">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -157,7 +160,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X5H-8G-b5Y" userLabel="R2TextField">
                                                 <rect key="frame" x="53" y="100.5" width="176" height="62.5"/>
                                                 <color key="backgroundColor" red="0.3747296691" green="1" blue="0.77729306570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <accessibility key="accessibilityConfiguration">
+                                                <accessibility key="accessibilityConfiguration" identifier="R2TextField">
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>

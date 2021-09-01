@@ -57,6 +57,7 @@ public class EquationSolver {
         }
         else if (solution.valueA == 0) {
             createAlert(title: "AVISO", message: "No es una ecuacion de segundo grado")
+            solution.Quadratic = false
             
         }
         else {
@@ -73,7 +74,7 @@ public class EquationSolver {
                 solution.Raiz2 = (-solution.valueB - (sqrt(Delta))) / (2*solution.valueA)
             }
         }
-        return Solution(valueA: solution.valueA, valueB: solution.valueB, valueC: solution.valueC, Raiz1: solution.Raiz1, Raiz2: solution.Raiz2)
+        return Solution(valueA: solution.valueA, valueB: solution.valueB, valueC: solution.valueC, Raiz1: solution.Raiz1, Raiz2: solution.Raiz2, Quadratic: solution.Quadratic)
          
  
         
