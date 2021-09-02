@@ -42,7 +42,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hm1-hL-9SA">
                                                 <rect key="frame" x="-31" y="0.0" width="414" height="28"/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="ax^2 + bx + c = 0">
+                                                    <fragment content="ax² + bx + c = 0">
                                                         <attributes>
                                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                             <font key="NSFont" size="37" name="TimesNewRomanPSMT"/>

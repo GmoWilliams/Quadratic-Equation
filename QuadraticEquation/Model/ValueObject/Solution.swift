@@ -12,11 +12,11 @@ public class Solution {
     public let valueB : Float16
     public var valueC : Float16
     
-    public var Raiz1 : Float16
-    public var Raiz2 : Float16
+    public var Raiz1 : String
+    public var Raiz2 : String
     public var Quadratic : Bool
     
-    public init(valueA: Float16, valueB: Float16, valueC: Float16, Raiz1: Float16, Raiz2: Float16, Quadratic: Bool) {
+    public init(valueA: Float16, valueB: Float16, valueC: Float16, Raiz1: String, Raiz2: String, Quadratic: Bool) {
         self.valueA = valueA
         self.valueB = valueB
         self.valueC = valueC

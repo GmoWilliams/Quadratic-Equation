@@ -44,7 +44,7 @@ class ViewController: UIViewController {
                     if !b.isEmpty {
                         if let c  = CTextField.text {
                             if !c.isEmpty {
-        let Result = equationSolver.secondGradeSolver(solution: Solution(valueA: Float16(a)!,valueB: Float16(b)!,valueC: Float16(c)!, Raiz1: Float16(c)!, Raiz2: Float16(c)!, Quadratic: Bool(true)))
+        let Result = equationSolver.secondGradeSolver(solution: Solution(valueA: Float16(a)!,valueB: Float16(b)!,valueC: Float16(c)!, Raiz1: String(""), Raiz2: String(""), Quadratic: Bool(true)))
                                 
                                 
                                 lblRaiz1.text = String(Result.Raiz1)
