@@ -58,6 +58,8 @@ public class EquationSolver {
         else if (solution.valueA == 0) {
             createAlert(title: "AVISO", message: "No es una ecuacion de segundo grado")
             solution.Quadratic = false
+            solution.Raiz2 = 0
+            solution.Raiz1 = 0
             
         }
         else {
@@ -67,7 +69,9 @@ public class EquationSolver {
                 solution.Raiz1 = (-solution.valueB/2*solution.valueA)
             }
             else if (Delta < 0){
-                solution.Raiz2 = 888
+                createAlert(title: "AVISO", message: "Esta ecuacion no tiene una solucion real")
+                solution.Raiz2 = 0
+                solution.Raiz1 = 0
             }
             else {
                 solution.Raiz1 = (-solution.valueB + (sqrt(Delta))) / (2*solution.valueA)
